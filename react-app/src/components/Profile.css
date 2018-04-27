@@ -1,0 +1,27 @@
+.Profile {
+  margin: 0 auto;
+  margin-top: 2rem;
+  align-items: center;
+  background: #f1f3f5;
+  border: 1px solid #ced4da;
+  padding: 1rem;
+}
+
+.Profile img {
+  width: 256px;
+  height: 256px;
+}
+
+.Profile h1,
+.Profile h2 {
+  margin: 0;
+}
+
+.Profile h1 {
+  font-size: 3rem;
+}
+
+.Profile h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}

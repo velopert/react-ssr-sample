@@ -1,0 +1,22 @@
+.Repo {
+  margin-top: 2rem;
+  width: 500px;
+}
+
+.Repo .repo-item {
+  border: 1px solid #adb5bd;
+  padding: 1rem;
+}
+
+.Repo .repo-item + .repo-item {
+  margin-top: 1.5rem;
+}
+
+.Repo .repo-item h4 {
+  margin: 0;
+}
+
+.Repo .repo-item p {
+  margin-bottom: 0;
+  margin-top: 1rem;
+}
