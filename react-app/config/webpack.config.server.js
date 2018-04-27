@@ -48,13 +48,11 @@ module.exports = {
     ]
   },
   resolve: {
-    // NODE_PATH 가 제대로 작동하도록, production 에서 사용한 설정을
-    // 그대로 넣어줬습니다.
+    // same configuration with webpack.prod.js
     modules: ['node_modules', paths.appNodeModules].concat(
-      // It is guaranteed to exist because we tweak it in `env.js`
       process.env.NODE_PATH.split(path.delimiter).filter(Boolean)
     )
   },
-  // 여기서는 환경 변수 관련 플러그인만 적용해주면 됩니다.
+  // sets env variables
   plugins: [new webpack.DefinePlugin(env.stringified)]
 };
